@@ -1,0 +1,63 @@
+body{
+  font-family:verdana;arial;sans-serif;
+  font-size: 0.75em;
+}
+
+a,a:active,a:link,a:visited{
+  text-decoration: none;
+  color: #0066CC;
+}
+
+a:hover{
+  text-decoration:underline;
+}
+
+table {
+  padding:0;
+  margin:0;
+}
+table tr td {
+  padding:3px;
+  vertical-align: top;
+}
+
+.title {
+  font-size: 1.3em;
+}
+
+.logo {
+  padding-right: 10px;
+}
+
+.hbList {
+  width:100%;
+}
+
+.hbList td{
+  border-bottom: 1px solid #ABA2BD;
+}
+
+.noBorder{
+  border:0px none !important ;
+}
+
+.hbListHead td{
+  background-color: #ABA2BD;
+  border-bottom: 2px solid #59467D !important;
+}
+
+.hbListHead a{
+  color:white;
+}
+
+/* Login box */
+.loginbox {
+  color:white;
+  background-color: #ABA2BD;
+  border: solid 2px #59467D;
+  padding:10px;
+}
+
+.loginBoxTitle{
+  color: #59467D;
+}
